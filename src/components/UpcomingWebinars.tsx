@@ -1,6 +1,6 @@
 "use client";
 import { HoverEffect } from "./ui/card-hover-effect";
-
+import React from "react";
 function UpcomingWebinars() {
   const featuredWebinars = [
     {
