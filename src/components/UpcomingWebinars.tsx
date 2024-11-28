@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
 
 function UpcomingWebinars() {
@@ -65,8 +64,8 @@ function UpcomingWebinars() {
             items={featuredWebinars.map((webinar, idx) => ({
               title: webinar.title,
               description: webinar.description,
-              link: "/",
-              key: idx,
+              link: `/webinars/${webinar.slug}`,
+              key: webinar.slug,
             }))}
           />
         </div>
