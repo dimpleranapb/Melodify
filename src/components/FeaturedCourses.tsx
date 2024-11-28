@@ -50,12 +50,10 @@ function FeaturedCourses() {
         </div>
       </div>
       <div className="mt-20 text-center">
-        <Link
-          href={"/courses"}
-          className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-        >
-          View All courses
-        </Link>
+        <button className="px-8 py-4 rounded-full relative bg-slate-700 text-white text-sm hover:shadow-2xl hover:shadow-white/[0.1] transition duration-200 border border-slate-600">
+          <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+          <span className="relative z-20">View All Courses</span>
+        </button>
       </div>
     </div>
   );

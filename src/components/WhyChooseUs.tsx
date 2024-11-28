@@ -36,7 +36,7 @@ const musicSchoolContent = [
 
 export default function WhyChooseUs() {
   return (
-    <div className="h-screen">
+    <div className="h-max">
       <StickyScroll content={musicSchoolContent} />
     </div>
   );
